@@ -35,6 +35,7 @@ $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name "WPF$($_.Name)" -Value $F
 Function Get-FormVariables{
 If ($global:ReadmeDisplay -ne $true){Write-host "If you need to reference this display again, run Get-FormVariables" -ForegroundColor Yellow;$global:ReadmeDisplay=$true}
 write-host "Hello, I am Simon, i'm From VietNam. 3512205135935 Agribank. Thanks" -ForegroundColor Blue
+write-host "cam on cac ban" -ForegroundColor Blue
 write-host "Found the following interactable elements from our form" -ForegroundColor Cyan
 get-variable WPF*
 }
@@ -525,7 +526,7 @@ $WPFtweaksbutton.Add_Click({
     If ( $WPFEssTweaksOO.IsChecked -eq $true ) {
         Write-Host "Running O&O Shutup with Recommended Settings"
         Import-Module BitsTransfer
-        Start-BitsTransfer -Source "https://raw.githubusercontent.com/ChrisTitusTech/win10script/master/ooshutup10.cfg" -Destination ooshutup10.cfg
+        Start-BitsTransfer -Source "https://raw.githubusercontent.com/truonglt0410/windowDebload/main/ooshutup10.cfg" -Destination ooshutup10.cfg
         Start-BitsTransfer -Source "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe" -Destination OOSU10.exe
         ./OOSU10.exe ooshutup10.cfg /quiet
         $WPFEssTweaksOO.IsChecked = $false
