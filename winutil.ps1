@@ -1,7 +1,7 @@
 <#
 .NOTES
-   Author      : Chris Titus @christitustech
-   GitHub      : https://github.com/ChrisTitusTech
+   Author      : Simon
+   GitHub      : https://github.com/truonglt0410
     Version 0.0.1
 #>
 
@@ -34,6 +34,7 @@ $xaml.SelectNodes("//*[@Name]") | %{Set-Variable -Name "WPF$($_.Name)" -Value $F
  
 Function Get-FormVariables{
 If ($global:ReadmeDisplay -ne $true){Write-host "If you need to reference this display again, run Get-FormVariables" -ForegroundColor Yellow;$global:ReadmeDisplay=$true}
+write-host "Hello, I am Simon, i'm From VietNam. 3512205135935 Agribank. Thanks" -ForegroundColor Blue
 write-host "Found the following interactable elements from our form" -ForegroundColor Cyan
 get-variable WPF*
 }
