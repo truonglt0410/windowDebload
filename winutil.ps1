@@ -378,6 +378,14 @@ $WPFinstall.Add_Click({
     If ( $WPFInstallzoom.IsChecked -eq $true ) { 
         $wingetinstall.Add("Zoom.Zoom")
         $WPFInstallzoom.IsChecked = $false
+    }
+    If ( $WPFInstallzalo.IsChecked -eq $true ) { 
+        $wingetinstall.Add("VNGCorp.Zalo")
+        $WPFInstallzoom.IsChecked = $false
+    }
+    If ( $WPFInstalltelegram.IsChecked -eq $true ) { 
+        $wingetinstall.Add("Telegram.TelegramDesktop")
+        $WPFInstallzoom.IsChecked = $false
     }    
 
     # Install all winget programs in new window
