@@ -235,6 +235,15 @@
 
 					</Grid>
 				</TabItem>
+				<TabItem Header="Donate" Visibility="Collapsed" Name="Tab5">
+					<Grid Background="#0000ff">
+						<StackPanel Background="#f2738f" SnapsToDevicePixels="True" Grid.Row="0" Margin="10,5">
+
+							<TextBlock Text="Donate bank: 3512205135935 Agribank" Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
+							
+						</StackPanel>
+					</Grid>
+				</TabItem>
 			</TabControl>
 		</Grid>
 	</Viewbox>
