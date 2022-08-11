@@ -381,11 +381,11 @@ $WPFinstall.Add_Click({
     }
     If ( $WPFInstallzalo.IsChecked -eq $true ) { 
         $wingetinstall.Add("VNGCorp.Zalo")
-        $WPFInstallzoom.IsChecked = $false
+        $WPFInstallzalo.IsChecked = $false
     }
     If ( $WPFInstalltelegram.IsChecked -eq $true ) { 
         $wingetinstall.Add("Telegram.TelegramDesktop")
-        $WPFInstallzoom.IsChecked = $false
+        $WPFInstalltelegram.IsChecked = $false
     }    
 
     # Install all winget programs in new window
