@@ -51,24 +51,35 @@ $WPFTab1BT.Add_Click({
     $WPFTabNav.Items[1].IsSelected = $false
     $WPFTabNav.Items[2].IsSelected = $false
     $WPFTabNav.Items[3].IsSelected = $false
+    $WPFTabNav.Items[4].IsSelected = $false
 })
 $WPFTab2BT.Add_Click({
     $WPFTabNav.Items[0].IsSelected = $false
     $WPFTabNav.Items[1].IsSelected = $true
     $WPFTabNav.Items[2].IsSelected = $false
     $WPFTabNav.Items[3].IsSelected = $false
+    $WPFTabNav.Items[4].IsSelected = $false
     })
 $WPFTab3BT.Add_Click({
     $WPFTabNav.Items[0].IsSelected = $false
     $WPFTabNav.Items[1].IsSelected = $false
     $WPFTabNav.Items[2].IsSelected = $true
     $WPFTabNav.Items[3].IsSelected = $false
+    $WPFTabNav.Items[4].IsSelected = $false
     })
 $WPFTab4BT.Add_Click({
     $WPFTabNav.Items[0].IsSelected = $false
     $WPFTabNav.Items[1].IsSelected = $false
     $WPFTabNav.Items[2].IsSelected = $false
     $WPFTabNav.Items[3].IsSelected = $true
+    $WPFTabNav.Items[4].IsSelected = $false
+    })
+$WPFTab5BT.Add_Click({
+    $WPFTabNav.Items[0].IsSelected = $false
+    $WPFTabNav.Items[1].IsSelected = $false
+    $WPFTabNav.Items[2].IsSelected = $false
+    $WPFTabNav.Items[3].IsSelected = $false
+    $WPFTabNav.Items[4].IsSelected = $true
     })
 
 #===========================================================================
